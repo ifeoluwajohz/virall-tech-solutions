@@ -8,7 +8,7 @@ import { Button } from "./ui/button";
 
 const NAV_LINKS = [
   { label: "Home", href: "/" },
-  { label: "About us", href: "/about-us" },
+  { label: "About us", href: "/about" },
   { label: "Blogs", href: "/blogs" },
   { label: "Services", href: "/services" },
   { label: "Projects", href: "/projects" },
@@ -101,12 +101,12 @@ const Navbar = () => {
           isOpen ? "max-h-96 py-2" : "max-h-0 py-0"
         }`}
       >
-        <div className="flex flex-col space-y-2 px-6 bg-black/40 rounded-md">
+        <div className="flex flex-col space-y-2 px-6 bg-black/10">
           {NAV_LINKS.map(({ label, href }) => (
             <Link
               key={label}
               href={href}
-              className="text-primary text-sm  py-2 transition-colors duration-200"
+              className=" text-sm text-white  py-2 transition-colors duration-200"
               onClick={() => setIsOpen(false)}
             >
               {label}

@@ -36,7 +36,7 @@ export function Footer() {
           <div>
             <h4 className="text-sm font-semibold tracking-wider uppercase">Company</h4>
             <ul className="mt-4 space-y-3 text-sm text-white/80">
-              <li><Link href="/about-us" className="hover:underline">About us</Link></li>
+              <li><Link href="/about" className="hover:underline">About us</Link></li>
               <li><Link href="/services" className="hover:underline">Services</Link></li>
               <li><Link href="/projects" className="hover:underline">Projects</Link></li>
               <li><Link href="/blogs" className="hover:underline">Blog</Link></li>
@@ -63,7 +63,7 @@ export function Footer() {
                 type="email"
                 required
                 placeholder="Enter your email"
-                className="w-full rounded-md px-3 py-2 text-sm text-black placeholder:text-black/70"
+                className="w-full rounded-md px-3 py-2 text-sm text-black bg-white placeholder:text-black/70"
               />
               <Button type="submit" className="bg-rose-800 rounded-sm text-xs font-semibold hover:bg-rose-700">
                 Subscribe
