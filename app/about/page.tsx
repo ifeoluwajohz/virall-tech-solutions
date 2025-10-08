@@ -5,7 +5,7 @@ import { Button } from '@/components/ui/button'
 
 const AboutPage = () => {
   return (
-    <div className='text-white mt-24 md:mt-28'>
+    <div className='text-white my-24 md:my-28'>
       {/* Hero */}
       <section className='max-w-7xl mx-auto px-4 md:px-8'>
         <div className='flex flex-col md:flex-row items-center gap-10'>
