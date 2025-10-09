@@ -12,7 +12,7 @@ export function Footer() {
           <div>
             <div className="flex items-center gap-x-2 text-lg font-semibold">
               <Fingerprint className="w-5 h-5" />
-              Virall Tech Solutions
+              Lienxify
             </div>
             <p className="text-sm mt-4 leading-6 text-white/80">
               We design, build, and scale modern web applications. From strategy to delivery, our team brings your digital vision to life.
@@ -71,7 +71,7 @@ export function Footer() {
             </form>
             <ul className="mt-6 space-y-3 text-sm text-white/80">
               <li className="flex items-center gap-2">
-                <Mail className="w-4 h-4" /> hello@viralltech.dev
+                <Mail className="w-4 h-4" /> hello@Lienxifytech.dev
               </li>
               <li className="flex items-center gap-2">
                 <Phone className="w-4 h-4" /> +234 000 000 0000
@@ -86,7 +86,7 @@ export function Footer() {
 
       <div className="border-t border-white/10">
         <div className="max-w-7xl mx-auto px-4 md:px-8 py-4 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-white/70">
-          <p>© {new Date().getFullYear()} Virall Tech Solutions. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} Lienxify. All rights reserved.</p>
           <div className="flex items-center gap-4">
             <Link href="#" className="hover:underline">Privacy Policy</Link>
             <Link href="#" className="hover:underline">Terms of Service</Link>

@@ -8,7 +8,7 @@ const NotFound = () => {
     <div className='min-h-[70vh] flex flex-col items-center justify-center text-center text-white gap-7'>
       <div className='flex items-center gap-2'>
         <Fingerprint className='w-5 h-5 text-white/90' />
-        <span className='text-sm font-semibold tracking-wide'>Virall Tech Solutions</span>
+        <span className='text-sm font-semibold tracking-wide'>Lienxify</span>
       </div>
       <div className='max-w-xl px-4'>
         <p className='text-[10px] md:text-xs tracking-wider text-white/60'>ERROR 404</p>

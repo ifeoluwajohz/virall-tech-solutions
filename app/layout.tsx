@@ -19,8 +19,8 @@ const josefinSans = Josefin_Sans({
 
 export const metadata: Metadata = {
   title: {
-    default: "Virall Tech Solutions",
-    template: "%s • Virall Tech Solutions",
+    default: "Lienxify",
+    template: "%s • Lienxify",
   },
   description: "Modern web agency crafting fast, scalable, and beautiful web applications.",
   metadataBase: new URL("https://your-domain.com"),
@@ -30,22 +30,22 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     url: "https://your-domain.com/",
-    title: "Virall Tech Solutions",
+    title: "Lienxify",
     description: "Modern web agency crafting fast, scalable, and beautiful web applications.",
-    siteName: "Virall Tech Solutions",
+    siteName: "Lienxify",
     images: [
       {
         url: "https://images.unsplash.com/photo-1634295852474-33648d53f644?w=1200&auto=format&fit=crop&q=80",
         width: 1200,
         height: 630,
-        alt: "Virall Tech Solutions",
+        alt: "Lienxify",
       },
     ],
     locale: "en_US",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Virall Tech Solutions",
+    title: "Lienxify",
     description: "Modern web agency crafting fast, scalable, and beautiful web applications.",
     images: [
       "https://images.unsplash.com/photo-1634295852474-33648d53f644?w=1200&auto=format&fit=crop&q=80",
@@ -85,7 +85,7 @@ export default function RootLayout({
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "Organization",
-              name: "Virall Tech Solutions",
+              name: "Lienxify",
               url: "https://your-domain.com",
               logo: "https://your-domain.com/icon.png",
               sameAs: [

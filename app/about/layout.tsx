@@ -2,32 +2,32 @@ import type { Metadata } from "next";
 import Script from "next/script";
 
 export const metadata: Metadata = {
-  title: "About • Virall Tech Solutions",
+  title: "About • Lienxify",
   description:
-    "Learn about Virall Tech Solutions — a modern web agency crafting fast, scalable, and beautiful web applications that drive business results.",
+    "Learn about Lienxify — a modern web agency crafting fast, scalable, and beautiful web applications that drive business results.",
   alternates: {
     canonical: "/about",
   },
   openGraph: {
     type: "website",
     url: "https://your-domain.com/about",
-    title: "About • Virall Tech Solutions",
+    title: "About • Lienxify",
     description:
       "We craft fast, scalable, and beautiful web experiences. Discover our mission, values, and journey.",
-    siteName: "Virall Tech Solutions",
+    siteName: "Lienxify",
     images: [
       {
         url: "https://images.unsplash.com/photo-1634295852474-33648d53f644?w=1200&auto=format&fit=crop&q=80",
         width: 1200,
         height: 630,
-        alt: "Virall Tech Solutions",
+        alt: "Lienxify",
       },
     ],
     locale: "en_US",
   },
   twitter: {
     card: "summary_large_image",
-    title: "About • Virall Tech Solutions",
+    title: "About • Lienxify",
     description:
       "We craft fast, scalable, and beautiful web experiences. Discover our mission, values, and journey.",
     images: [
@@ -60,12 +60,12 @@ export default function AboutLayout({
       "@type": "WebPage",
       "@id": "https://your-domain.com/about",
     },
-    name: "About • Virall Tech Solutions",
+    name: "About • Lienxify",
     description:
-      "Learn about Virall Tech Solutions — a modern web agency crafting fast, scalable, and beautiful web applications.",
+      "Learn about Lienxify — a modern web agency crafting fast, scalable, and beautiful web applications.",
     publisher: {
       "@type": "Organization",
-      name: "Virall Tech Solutions",
+      name: "Lienxify",
       url: "https://your-domain.com",
       logo: {
         "@type": "ImageObject",

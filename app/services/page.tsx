@@ -5,7 +5,7 @@ import { Button } from '@/components/ui/button'
 
 const ServicesPage = () => {
   return (
-    <div className='text-white my-24 md:my-28'>
+    <div className='text-white my-24 md:my-32'>
       <section className='max-w-7xl mx-auto px-4 md:px-8'>
         <h1 className='text-3xl md:text-5xl font-semibold'>Services</h1>
         <p className='mt-4 text-white/80 md:max-w-2xl'>

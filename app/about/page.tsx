@@ -5,20 +5,20 @@ import { Button } from '@/components/ui/button'
 
 const AboutPage = () => {
   return (
-    <div className='text-white my-24 md:my-28'>
+    <div className='text-white my-24 md:my-32'>
       {/* Hero */}
       <section className='max-w-7xl mx-auto px-4 md:px-8'>
         <div className='flex flex-col md:flex-row items-center gap-10'>
           <div className='flex-1'>
             <div className='flex items-center gap-2 text-green-400 text-xs font-semibold uppercase tracking-wider'>
               <Fingerprint className='w-4 h-4' />
-              About Virall Tech Solutions
+              About Lienxify
             </div>
             <h1 className='mt-3 text-3xl md:text-5xl font-semibold leading-tight'>
               We craft fast, scalable, and beautiful web experiences
             </h1>
             <p className='mt-5 text-white/80 md:max-w-2xl'>
-              Virall Tech Solutions is a modern web agency focused on building high-performance web applications that delight users and drive business results. We combine strategy, design, and engineering to ship reliably at speed.
+              Lienxify is a modern web agency focused on building high-performance web applications that delight users and drive business results. We combine strategy, design, and engineering to ship reliably at speed.
             </p>
             <div className='mt-6 flex items-center gap-4'>
               <Link href='/services'>
@@ -118,7 +118,7 @@ const AboutPage = () => {
             <Link href='/services'>
               <Button className='bg-rose-800 hover:bg-rose-700 rounded-sm text-xs font-semibold'>Work with us</Button>
             </Link>
-            <Link href='https://virall.netlify.app/' target='_blank' className='text-xs font-semibold underline underline-offset-4'>Our previous site</Link>
+            <Link href='/contact' className='text-xs font-semibold underline underline-offset-4'>Contact us</Link>
           </div>
         </div>
       </section>

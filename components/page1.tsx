@@ -5,13 +5,13 @@ import Link from "next/link";
 import { CirclePlay } from "lucide-react";
 
 const Page1 = () => {
-  const text = "Reimagine Your Digital Future, Elevated by \n Virall";
+  const text = "Reimagine Your Digital Future, Elevated by \n Lienxify";
 
   return (
     <>
       <div className=" md:max-w-7xl max-w-4xl mx-auto text-center text-white pt-44 pb-24" id="page1-section">
         <div className="flex flex-col items-center">
-          <p className="text-[10px] md:text-xs tracking-widest text-white/80 uppercase">Virall Tech Solutions</p>
+          <p className="text-[10px] md:text-xs tracking-widest text-white/80 uppercase">Lienxify</p>
           <h1 className="mt-3 text-xl md:text-4xl md:max-w-5xl font-semibold leading-tight">
             {text.toUpperCase()}
           </h1>
