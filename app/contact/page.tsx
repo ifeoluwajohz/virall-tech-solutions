@@ -25,7 +25,7 @@ const ContactPage = () => {
       <section className="max-w-7xl mx-auto px-4 md:px-8">
         <h1 className="text-3xl md:text-5xl font-semibold">Contact us</h1>
         <p className="mt-4 text-white/80 md:max-w-2xl">
-          Tell us about your project and we\'ll respond within 1 business day.
+          Tell us about your project and we will respond within 1 business day.
         </p>
       </section>
 

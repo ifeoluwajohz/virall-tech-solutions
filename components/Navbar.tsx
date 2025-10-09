@@ -6,8 +6,6 @@ import Link from "next/link";
 import {
   Fingerprint,
   KanbanIcon,
-  LogIn,
-  PlugZap,
   SquareX,
   Youtube,
 } from "lucide-react";
